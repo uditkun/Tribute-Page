@@ -17,7 +17,7 @@ h1 {
   font-size: 2.4rem;
 }
 #image {
-  max-width: 50%;
+  max-width: 70%;
   display: block;
   height: auto;
   margin: auto;
@@ -38,7 +38,8 @@ h1 {
   font-weight: 550;
 }
 #img-div {
-  margin: 10px 0;
+  margin: 10px auto 0;
+  width: 600px;
 }
 #img-caption {
   font-size: 1.7rem;
@@ -79,14 +80,19 @@ footer h1 {
 #tribute-link {
   color: rgb(60, 136, 235);
 }
-@media only screen and (max-width: 770px) {
-  #image {
-    min-width: 370px;
+#tribute-link:hover {
+  color: rgb(235, 60, 235);
+}
+@media only screen and (max-width: 700px) {
+  #img-div {
+    width: 370px;
   }
 }
 @media only screen and (max-width: 460px) {
-  #image {
-    width: 100vw;
-    padding-right: 20px;
+  html {
+    font-size: 8px;
+  }
+  #img-div {
+    width: 250px;
   }
 }
